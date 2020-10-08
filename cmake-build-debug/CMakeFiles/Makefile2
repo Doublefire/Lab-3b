@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\Adam\Documents\GitHub\Lab-3b\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Lab_3b.dir/all
+all: CMakeFiles/linkedlists.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Lab_3b.dir/clean
+clean: CMakeFiles/linkedlists.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Lab_3b.dir
+# Target rules for target CMakeFiles/linkedlists.dir
 
 # All Build rule for target.
-CMakeFiles/Lab_3b.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_3b.dir\build.make CMakeFiles/Lab_3b.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_3b.dir\build.make CMakeFiles/Lab_3b.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Adam\Documents\GitHub\Lab-3b\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Lab_3b"
-.PHONY : CMakeFiles/Lab_3b.dir/all
+CMakeFiles/linkedlists.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Adam\Documents\GitHub\Lab-3b\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target linkedlists"
+.PHONY : CMakeFiles/linkedlists.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Lab_3b.dir/rule: cmake_check_build_system
+CMakeFiles/linkedlists.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Documents\GitHub\Lab-3b\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Lab_3b.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/linkedlists.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Documents\GitHub\Lab-3b\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Lab_3b.dir/rule
+.PHONY : CMakeFiles/linkedlists.dir/rule
 
 # Convenience name for target.
-Lab_3b: CMakeFiles/Lab_3b.dir/rule
+linkedlists: CMakeFiles/linkedlists.dir/rule
 
-.PHONY : Lab_3b
+.PHONY : linkedlists
 
 # clean rule for target.
-CMakeFiles/Lab_3b.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_3b.dir\build.make CMakeFiles/Lab_3b.dir/clean
-.PHONY : CMakeFiles/Lab_3b.dir/clean
+CMakeFiles/linkedlists.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/clean
+.PHONY : CMakeFiles/linkedlists.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

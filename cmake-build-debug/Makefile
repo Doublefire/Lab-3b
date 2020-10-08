@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab_3b
+# Target rules for targets named linkedlists
 
 # Build rule for target.
-Lab_3b: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lab_3b
-.PHONY : Lab_3b
+linkedlists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linkedlists
+.PHONY : linkedlists
 
 # fast build rule for target.
-Lab_3b/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_3b.dir\build.make CMakeFiles/Lab_3b.dir/build
-.PHONY : Lab_3b/fast
+linkedlists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/build
+.PHONY : linkedlists/fast
 
 main.obj: main.c.obj
 
@@ -148,7 +148,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_3b.dir\build.make CMakeFiles/Lab_3b.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -157,7 +157,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_3b.dir\build.make CMakeFiles/Lab_3b.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -166,7 +166,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_3b.dir\build.make CMakeFiles/Lab_3b.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -177,7 +177,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lab_3b
+	@echo ... linkedlists
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
