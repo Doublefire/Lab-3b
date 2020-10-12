@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Adam/Documents/GitHub/Lab-3b/read_sample.c
+tga.h
+C:/Users/Adam/Documents/GitHub/Lab-3b/tga.h
+
+C:/Users/Adam/Documents/GitHub/Lab-3b/tga.h
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
+

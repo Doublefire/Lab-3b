@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Adam/Documents/GitHub/Lab-3b/main.c" "C:/Users/Adam/Documents/GitHub/Lab-3b/cmake-build-debug/CMakeFiles/linkedlists.dir/main.c.obj"
+  "C:/Users/Adam/Documents/GitHub/Lab-3b/read_sample.c" "C:/Users/Adam/Documents/GitHub/Lab-3b/cmake-build-debug/CMakeFiles/Task1.dir/read_sample.c.obj"
+  "C:/Users/Adam/Documents/GitHub/Lab-3b/tga.c" "C:/Users/Adam/Documents/GitHub/Lab-3b/cmake-build-debug/CMakeFiles/Task1.dir/tga.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

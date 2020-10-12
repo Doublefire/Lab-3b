@@ -1,3 +1,0 @@
-C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\linkedlists.dir/objects.a
-"D:\Ny mapp\mingw32\bin\ar.exe" cr CMakeFiles\linkedlists.dir/objects.a @CMakeFiles\linkedlists.dir\objects1.rsp
-"D:\Ny mapp\mingw32\bin\gcc.exe" -g   -Wl,--whole-archive CMakeFiles\linkedlists.dir/objects.a -Wl,--no-whole-archive  -o linkedlists.exe -Wl,--out-implib,liblinkedlists.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\linkedlists.dir\linklibs.rsp

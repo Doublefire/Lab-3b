@@ -58,10 +58,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\Adam\Documents\GitHub\Lab-3b\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -130,44 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linkedlists
+# Target rules for targets named Task1
 
 # Build rule for target.
-linkedlists: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linkedlists
-.PHONY : linkedlists
+Task1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task1
+.PHONY : Task1
 
 # fast build rule for target.
-linkedlists/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/build
-.PHONY : linkedlists/fast
+Task1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task1.dir\build.make CMakeFiles/Task1.dir/build
+.PHONY : Task1/fast
 
-main.obj: main.c.obj
+read_sample.obj: read_sample.c.obj
 
-.PHONY : main.obj
+.PHONY : read_sample.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/main.c.obj
-.PHONY : main.c.obj
+read_sample.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task1.dir\build.make CMakeFiles/Task1.dir/read_sample.c.obj
+.PHONY : read_sample.c.obj
 
-main.i: main.c.i
+read_sample.i: read_sample.c.i
 
-.PHONY : main.i
+.PHONY : read_sample.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/main.c.i
-.PHONY : main.c.i
+read_sample.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task1.dir\build.make CMakeFiles/Task1.dir/read_sample.c.i
+.PHONY : read_sample.c.i
 
-main.s: main.c.s
+read_sample.s: read_sample.c.s
 
-.PHONY : main.s
+.PHONY : read_sample.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlists.dir\build.make CMakeFiles/linkedlists.dir/main.c.s
-.PHONY : main.c.s
+read_sample.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task1.dir\build.make CMakeFiles/Task1.dir/read_sample.c.s
+.PHONY : read_sample.c.s
+
+tga.obj: tga.c.obj
+
+.PHONY : tga.obj
+
+# target to build an object file
+tga.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task1.dir\build.make CMakeFiles/Task1.dir/tga.c.obj
+.PHONY : tga.c.obj
+
+tga.i: tga.c.i
+
+.PHONY : tga.i
+
+# target to preprocess a source file
+tga.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task1.dir\build.make CMakeFiles/Task1.dir/tga.c.i
+.PHONY : tga.c.i
+
+tga.s: tga.c.s
+
+.PHONY : tga.s
+
+# target to generate assembly for a file
+tga.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task1.dir\build.make CMakeFiles/Task1.dir/tga.c.s
+.PHONY : tga.c.s
 
 # Help Target
 help:
@@ -177,10 +204,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... linkedlists
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Task1
+	@echo ... read_sample.obj
+	@echo ... read_sample.i
+	@echo ... read_sample.s
+	@echo ... tga.obj
+	@echo ... tga.i
+	@echo ... tga.s
 .PHONY : help
 
 
