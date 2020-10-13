@@ -32,3 +32,7 @@ int main(void) {
 }
 
 /* EOF */
+
+/*!
+ * They have different amount of bits so they will have different amount of information so the one with more bits (24) will appear smother.
+ */
