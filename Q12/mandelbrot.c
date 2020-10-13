@@ -38,17 +38,22 @@ void mandelbrot_color(int x, int y, int width, int height, PIXEL_RGB24 *color, i
 
 int main(void) {
 
-	int x=1, y=1, max_it=1;
+	int x=1, y=1, max_it=300, index;
 	const int width=1024,height=768;
-	PIXEL_RGB24 image[256*256];
+	PIXEL_RGB24 *image;
     PIXEL_RGB24 color;
 
     /*!
      * Complete this code so that the output TGA file gets some nice colors.
      * Hint: you need to loop over all 1024*768 pixels and color each of them.
      */
-    for (int i = 0; i < width*height; ++i) {
-        mandelbrot_color( x, y, width, height, &color, max_it);
+    (image) = (PIXEL_RGB24 *) malloc(sizeof(PIXEL_RGB24) * (width*height));
+    for (x = 0; x < height; ++x) {
+        for ( y = 0; y < width; ++y) {
+            mandelbrot_color( x, y, width, height, &color, max_it);
+            copy_pixel(&image[index], &color);
+            index++;
+        }
     }
 
 	if(tga_write("C:\\Users\\Adam\\Documents\\GitHub\\Lab-3b\\Q12\\mandelbrot.tga",width,height,image,24)!=TGA_OK) {

@@ -1,3 +1,3 @@
-C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/Q12.dir
-C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/Q12.dir
+C:/Users/adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/rebuild_cache.dir

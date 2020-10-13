@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/mandelbrot.c
+C:/Users/adam/Documents/GitHub/Lab-3b/Q12/mandelbrot.c
 tga.h
-C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/tga.h
+C:/Users/adam/Documents/GitHub/Lab-3b/Q12/tga.h
 
-C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/tga.h
+C:/Users/adam/Documents/GitHub/Lab-3b/Q12/tga.h
 stdio.h
 -
 stdlib.h
