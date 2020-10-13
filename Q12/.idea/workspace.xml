@@ -52,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Q11/gradient.c" />
   </component>
   <component name="RunManager">
     <configuration name="Q12" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Q12" TARGET_NAME="Q12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Q12" RUN_TARGET_NAME="Q12">
@@ -74,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602580660953</updated>
       <workItem from="1602580662163" duration="1400000" />
+      <workItem from="1602582171976" duration="457000" />
     </task>
     <servers />
   </component>
@@ -90,23 +92,55 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602582062380">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602582420294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582062380" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602582062380">
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582420294" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1602582600507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582062380" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602582062379">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582600507" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1602582600507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582062379" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602582062380">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582600507" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1602582600507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582062380" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582600507" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1602582600507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582600507" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602582601336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582601336" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1602582601335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582601335" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1602582601335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582601335" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1602582601336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602582601336" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/mandelbrot.c</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

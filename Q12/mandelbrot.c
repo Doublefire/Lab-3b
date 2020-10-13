@@ -40,12 +40,13 @@ int main(void) {
 
 	int x=1, y=1, max_it=1;
 	const int width=1024,height=768;
-	PIXEL_RGB24 image[width*height], color;
-	
-	/*!
-	 * Complete this code so that the output TGA file gets some nice colors.
-	 * Hint: you need to loop over all 1024*768 pixels and color each of them.
-	 */
+	PIXEL_RGB24 image[256*256];
+    PIXEL_RGB24 color;
+
+    /*!
+     * Complete this code so that the output TGA file gets some nice colors.
+     * Hint: you need to loop over all 1024*768 pixels and color each of them.
+     */
     for (int i = 0; i < width*height; ++i) {
         mandelbrot_color( x, y, width, height, &color, max_it);
     }
