@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/adam/Documents/GitHub/Lab-3b/Q13/interp1.h
+
+C:/Users/adam/Documents/GitHub/Lab-3b/Q13/plot.c
+tga.h
+C:/Users/adam/Documents/GitHub/Lab-3b/Q13/tga.h
+math.h
+-
+interp1.h
+C:/Users/adam/Documents/GitHub/Lab-3b/Q13/interp1.h
+
+C:/Users/adam/Documents/GitHub/Lab-3b/Q13/tga.h
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
+

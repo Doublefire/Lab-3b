@@ -26,10 +26,10 @@ void mandelbrot_color(int x, int y, int width, int height, PIXEL_RGB24 *color, i
 		dx = temp;
 	}
 	double s = i;
-	s *= 255.0/max_it;
+	s *= 255.0/(max_it);
 
 	/* Purple/magenta colors */
-	color->R = color->B = s; color->G = 0;
+	color->R = s; color->B = 0; color->G = s;
 
 	/* Greyscale */
 	/*color->R = color->B = color->G = 255 - s;*/
@@ -38,7 +38,7 @@ void mandelbrot_color(int x, int y, int width, int height, PIXEL_RGB24 *color, i
 
 int main(void) {
 
-	int x=1, y=1, max_it=300, index;
+	int x, y, max_it=100, index=0;
 	const int width=1024,height=768;
 	PIXEL_RGB24 *image;
     PIXEL_RGB24 color;
@@ -48,8 +48,8 @@ int main(void) {
      * Hint: you need to loop over all 1024*768 pixels and color each of them.
      */
     (image) = (PIXEL_RGB24 *) malloc(sizeof(PIXEL_RGB24) * (width*height));
-    for (x = 0; x < height; ++x) {
-        for ( y = 0; y < width; ++y) {
+    for (y = 0; y < height; ++y) {
+        for ( x = 0; x < width; ++x) {
             mandelbrot_color( x, y, width, height, &color, max_it);
             copy_pixel(&image[index], &color);
             index++;
