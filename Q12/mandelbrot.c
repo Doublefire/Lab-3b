@@ -38,7 +38,7 @@ void mandelbrot_color(int x, int y, int width, int height, PIXEL_RGB24 *color, i
 
 int main(void) {
 
-	int x, y, max_it=100, index=0;
+	int x, y, max_it=3, index=0;
 	const int width=1024,height=768;
 	PIXEL_RGB24 *image;
     PIXEL_RGB24 color;

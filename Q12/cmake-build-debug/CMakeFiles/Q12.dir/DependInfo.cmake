@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/adam/Documents/GitHub/Lab-3b/Q12/mandelbrot.c" "C:/Users/adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/Q12.dir/mandelbrot.c.obj"
-  "C:/Users/adam/Documents/GitHub/Lab-3b/Q12/tga.c" "C:/Users/adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/Q12.dir/tga.c.obj"
+  "C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/mandelbrot.c" "C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/Q12.dir/mandelbrot.c.obj"
+  "C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/tga.c" "C:/Users/Adam/Documents/GitHub/Lab-3b/Q12/cmake-build-debug/CMakeFiles/Q12.dir/tga.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

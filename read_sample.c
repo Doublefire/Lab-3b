@@ -15,10 +15,10 @@ void main(){
     int vertical=64, *height=&vertical;
     PIXEL_RGB24 *lager, **buffer=&lager;
     int read;
-    int bits=24, W_width=128, W_height=128;
+    int bits=24;
 
     read=tga_read("C:\\Users\\Adam\\Documents\\GitHub\\Lab-3b\\sample.tga", width, height, buffer);
-    tga_write("C:\\Users\\Adam\\Documents\\GitHub\\Lab-3b\\sample-24bit.tga", W_width, W_height, lager, bits);
+    tga_write("C:\\Users\\Adam\\Documents\\GitHub\\Lab-3b\\sample-24bit.tga", *width, *height, lager, bits);
 
 printf("%i",read);
 }

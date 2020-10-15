@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\Adam\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\adam\Documents\GitHub\Lab-3b\Q12
+CMAKE_SOURCE_DIR = C:\Users\Adam\Documents\GitHub\Lab-3b\Q12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Q12.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/Q12.dir/flags.make
 
 CMakeFiles/Q12.dir/tga.c.obj: CMakeFiles/Q12.dir/flags.make
 CMakeFiles/Q12.dir/tga.c.obj: ../tga.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Q12.dir/tga.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Q12.dir\tga.c.obj   -c C:\Users\adam\Documents\GitHub\Lab-3b\Q12\tga.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Q12.dir/tga.c.obj"
+	"D:\Ny mapp\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Q12.dir\tga.c.obj   -c C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\tga.c
 
 CMakeFiles/Q12.dir/tga.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Q12.dir/tga.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\adam\Documents\GitHub\Lab-3b\Q12\tga.c > CMakeFiles\Q12.dir\tga.c.i
+	"D:\Ny mapp\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\tga.c > CMakeFiles\Q12.dir\tga.c.i
 
 CMakeFiles/Q12.dir/tga.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Q12.dir/tga.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\adam\Documents\GitHub\Lab-3b\Q12\tga.c -o CMakeFiles\Q12.dir\tga.c.s
+	"D:\Ny mapp\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\tga.c -o CMakeFiles\Q12.dir\tga.c.s
 
 CMakeFiles/Q12.dir/mandelbrot.c.obj: CMakeFiles/Q12.dir/flags.make
 CMakeFiles/Q12.dir/mandelbrot.c.obj: ../mandelbrot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Q12.dir/mandelbrot.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Q12.dir\mandelbrot.c.obj   -c C:\Users\adam\Documents\GitHub\Lab-3b\Q12\mandelbrot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Q12.dir/mandelbrot.c.obj"
+	"D:\Ny mapp\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Q12.dir\mandelbrot.c.obj   -c C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\mandelbrot.c
 
 CMakeFiles/Q12.dir/mandelbrot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Q12.dir/mandelbrot.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\adam\Documents\GitHub\Lab-3b\Q12\mandelbrot.c > CMakeFiles\Q12.dir\mandelbrot.c.i
+	"D:\Ny mapp\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\mandelbrot.c > CMakeFiles\Q12.dir\mandelbrot.c.i
 
 CMakeFiles/Q12.dir/mandelbrot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Q12.dir/mandelbrot.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\adam\Documents\GitHub\Lab-3b\Q12\mandelbrot.c -o CMakeFiles\Q12.dir\mandelbrot.c.s
+	"D:\Ny mapp\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\mandelbrot.c -o CMakeFiles\Q12.dir\mandelbrot.c.s
 
 # Object files for target Q12
 Q12_OBJECTS = \
@@ -116,7 +116,7 @@ Q12.exe: CMakeFiles/Q12.dir/build.make
 Q12.exe: CMakeFiles/Q12.dir/linklibs.rsp
 Q12.exe: CMakeFiles/Q12.dir/objects1.rsp
 Q12.exe: CMakeFiles/Q12.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Q12.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Q12.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Q12.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/Q12.dir/clean:
 .PHONY : CMakeFiles/Q12.dir/clean
 
 CMakeFiles/Q12.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\adam\Documents\GitHub\Lab-3b\Q12 C:\Users\adam\Documents\GitHub\Lab-3b\Q12 C:\Users\adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug C:\Users\adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug C:\Users\adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug\CMakeFiles\Q12.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Adam\Documents\GitHub\Lab-3b\Q12 C:\Users\Adam\Documents\GitHub\Lab-3b\Q12 C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug C:\Users\Adam\Documents\GitHub\Lab-3b\Q12\cmake-build-debug\CMakeFiles\Q12.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Q12.dir/depend
 

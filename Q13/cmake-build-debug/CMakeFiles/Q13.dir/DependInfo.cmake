@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/adam/Documents/GitHub/Lab-3b/Q13/interp1.c" "C:/Users/adam/Documents/GitHub/Lab-3b/Q13/cmake-build-debug/CMakeFiles/Q13.dir/interp1.c.obj"
-  "C:/Users/adam/Documents/GitHub/Lab-3b/Q13/plot.c" "C:/Users/adam/Documents/GitHub/Lab-3b/Q13/cmake-build-debug/CMakeFiles/Q13.dir/plot.c.obj"
-  "C:/Users/adam/Documents/GitHub/Lab-3b/Q13/tga.c" "C:/Users/adam/Documents/GitHub/Lab-3b/Q13/cmake-build-debug/CMakeFiles/Q13.dir/tga.c.obj"
+  "C:/Users/Adam/Documents/GitHub/Lab-3b/Q13/interp1.c" "C:/Users/Adam/Documents/GitHub/Lab-3b/Q13/cmake-build-debug/CMakeFiles/Q13.dir/interp1.c.obj"
+  "C:/Users/Adam/Documents/GitHub/Lab-3b/Q13/plot.c" "C:/Users/Adam/Documents/GitHub/Lab-3b/Q13/cmake-build-debug/CMakeFiles/Q13.dir/plot.c.obj"
+  "C:/Users/Adam/Documents/GitHub/Lab-3b/Q13/tga.c" "C:/Users/Adam/Documents/GitHub/Lab-3b/Q13/cmake-build-debug/CMakeFiles/Q13.dir/tga.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
